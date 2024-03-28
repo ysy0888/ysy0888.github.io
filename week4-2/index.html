@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <style>
+      hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0));
+      }
+      </style>
+  </head>
+  <body>
+    <!-- Start your project here-->
+    
+
+    <!--header-->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('img/background.jpg');
+          height: 400px;
+        ">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <!--profile-picture-->
+              <img src="img/profile.png" width="150px" class="profile-picture img-fluid 
+              border border-3 border-white rounded-circle">
+              <!--profile-picture-->
+
+              <h1 class="mb-3">Yoon Su Young</h1>
+              <h4 class="mb-3">Sejong University Sophomore, Majoring in AI</h4>
+              <a class="btn btn-outline-light btn-lg" href="#project" role="button"
+              >See My Projects</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+    <!--header-->
+
+
+    <!-- container -->
+    <div class="container">
+        
+      <!-- about me -->
+      <div class="row p-3" id="about">
+        <h3 class="text-center py-3 text-decoration-underline">About</h3>
+        <p class="text-center fst-italic">Thanks for stopping by my homepage. Let me tell 
+        you something about me: </p>
+        <div class="col-md-6 text-center py-3">
+          <h4>I am</h4>
+          <ul class="list-group list-group-light">
+            <li class="list-group-item border-0 py-1">A student</li>
+            <li class="list-group-item border-0 py-1">A reader</li>
+            <li class="list-group-item border-0 py-1">An explorer</li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-center py-3">
+          <h4>I like to</h4>
+          <ul class="list-group list-group-light">
+            <li class="list-group-item border-0 py-1">Meet new people</li>
+            <li class="list-group-item border-0 py-1">Play guitar</li>
+            <li class="list-group-item border-0 py-1">Eat Icecream</li>
+          </ul>
+        </div>
+      </div>
+      <!-- about me -->
+      <hr/>
+      <!-- project -->
+      <div class="row p-3" id="project">
+        <h3 class="text-center pb-3 text-decoration-underline">My Projects</h3>
+        <!-- first project -->
+        <div class="col-md-6 p-3">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="img/projects/project-4.jpg"" class="img-fluid"/>
+              <a href="#">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Research & Development</h5>
+              <p class="card-text">We do a bunch of reasearch and development.</p>
+              <a href="#" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- first project -->
+        <!-- second project -->
+        <div class="col-md-6 p-3">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="img/projects/project-2.jpg"" class="img-fluid"/>
+              <a href="project.html">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Data Visualization</h5>
+              <p class="card-text">We do a bunch of data visualization.</p>
+              <a href="#" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- second project -->
+        <!-- third project -->
+          <div class="col-md-6 p-3">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/projects/project-3.jpg"" class="img-fluid"/>
+                <a href="#">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            <div class="card-body">
+              <h5 class="card-title">Data Analytics</h5>
+              <p class="card-text">We do a bunch of data analytics.</p>
+              <a href="#" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- third project -->
+        <!-- fourth project -->
+        <div class="col-md-6 p-3">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="img/projects/project-1.jpg" class="img-fluid"/>
+              <a href="#">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Data Analytics</h5>
+              <p class="card-text">We do a bunch of data analytics.</p>
+              <a href="#" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- fourth project -->
+      </div>
+      <!-- project -->
+      <hr/>
+      <!-- contact -->
+      <div class="row p-3" id="contact">
+        <!-- links -->
+        <div class="col-md-4">
+          <h3 class="text-decoration-underline py-3">Links</h3>
+          <button type="button" class="btn btn-secondary btn-floating mx-1" >
+            <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </button>
+          <button type="button" class="btn btn-secondary btn-floating mx-1">
+            <a href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </button>
+          <button type="button" class="btn btn-secondary btn-floating mx-1">
+            <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          </button>
+          <button type="button" class="btn btn-secondary btn-floating mx-1">
+            <a href="http://github.com" target="_blank"><i class="fab fa-github"></i></a>
+          </button>
+        </div>
+
+        <!-- contact form -->
+        <div class="col-md-8">
+          <h3 class="text-decoration-underline py-3">Contact me</h3>
+          <form>
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </form>
+        </div>
+      </div>
+      <!-- contact -->
+      <hr/>
+      <!-- map -->
+      <div class="row p-3">
+        <iframe class="col-md-12" height="350px"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.138268457878!2d127.071
+        44581539984!3d37.551806032728976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3
+        57ca4d0720eecc1%3A0x1a7ad975c6b5e4eb!2sSejong%20University!5e0!3m2!1sen!2skr!4v1678864
+        186760!5m2!1sen!2skr" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      <!-- map -->
+    </div>
+    <!-- container -->
+
+    <!-- footer -->
+    <footer class="bg-dark text-center">
+      <!-- Copyright -->
+      <div class="text-light text-center p-3" style="background-color: rgb(39, 37, 37);">
+        © 2024 Copyright:
+        <a class="text-light" target="_blank" href="http://sejong.ac.kr/">Sejong University</a>
+      </div>
+      <!-- Copyright -->
+      </footer>
+    <!-- footer -->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
